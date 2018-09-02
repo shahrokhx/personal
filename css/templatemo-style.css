@@ -926,9 +926,18 @@ h3.profile-title {
 #footer p.copyright-text a:hover {
   color: #6cc0f7;
 
+}
 
-
-
+#demo {
+                        /*background-image: url('/w3images/forestbridge.jpg');*/
+                        height: 100%;
+                        background-position: center;
+                        background-size: cover;
+                        position: relative;
+                        color: black;
+                        font-family: "Courier New", Courier, monospace;
+                        font-size: 25px;
+}
 
 
 
