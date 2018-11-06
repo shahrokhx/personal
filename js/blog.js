@@ -6,9 +6,6 @@
         userId: 8243079691,
         accessToken: '8243079691.1677ed0.5df9b9cdb6744d83bbd12a1bfc0d8c91',
         
-        // My Private
-        // userId: 1441049479,
-        // accessToken: '1441049479.1677ed0.a2ecf188756c4539bda0c4885ebbdccd',
         
         target: 'instagram',
         resolution: 'standard_resolution',
