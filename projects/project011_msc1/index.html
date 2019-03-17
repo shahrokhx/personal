@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class='no-js' >
+	
+	<head>
+				
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+		<title>PORTFOLIO</title>
+		
+		<!--[if lt IE 9]>
+		  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.transitions.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/style.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/color-default.css' >
+
+	</head>
+	
+	<body>
+		
+		<!--close button
+		<a href='../../index.html#portfolio' class='close-btn' >
+			<span></span>
+			<span></span>
+		</a>
+		-->
+		
+		<!--preloader-->
+		<div id='preloader' >
+			<div class='loader' >
+				<img src='../../img/load.gif' alt='symp' >
+			</div>
+		</div>
+		<!--/preloader-->
+		
+		
+		<div id='wrapper' >
+			<section class='single-work' >
+				<div class='container' >
+					
+					
+					<div class='row' >
+						
+						<div class='col-md-12' >
+							<img src='img/poster1.jpg' alt='symp' >
+						</div>
+						
+						<!--
+						<div class='col-md-4' >
+							<ul class='work-info' >
+								
+								<li>
+									<h4><i class='ion-ionic' ></i>Client</h4>
+									<p>Themeforest.net</p>
+								</li>
+								
+								<li>
+									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
+									<p>2015, June</p>
+								</li>
+								
+								<li>	
+									<h4><i class='ion-ios-clock-outline' ></i>Time Taken</h4>
+									<p>3 Weeks</p>
+								</li>
+
+							</ul>							
+						</div>
+						-->
+						
+					</div>
+					
+					
+					<button type="submit" onclick="window.open('img/ThesisAbstract.pdf')">View Thesis Abstract</button>
+
+
+					<div class='work-content' >
+						<div class='block' style='text-align: justify;'>
+							<h4>Multiscale Biomechanics</h4>
+							
+							<p>
+								Predictive computational models are a significant tool in the study of biomechanical structures. In general, biomechanics is defined as the mechanical discipline that investigates the effects of physiological forces acting on and within the biological structures. As in many other biological phenomena, many length scales are crossed by biomechanics research: intracellular, multicellular, and extracellular matrices; and tissue, organ and multiorgan systems. It is well established that the effect of forces at higher scales influence the behavior at lower scales and that lower-scale properties influence the higher-scale response. However, computational methods that incorporate these interactions in biomechanics are relatively rare.
+							</p>
+							
+						</div>
+						
+						<div class='block row' >
+							<div class='col-md-6' style='text-align: justify;'>
+								<h4>My Research</h4>
+								
+								<p>
+									In my researches, a hierarchical multiscale approach is employed to investigate how mechanical stimuli in the organ scale are transmitted to microstructure in the cell scale. As an important biomechanical structure, the aortic heart valve, as a soft tissue, constructs a complex fiber-reinforced composite structure that the mechanical communication from the larger scales affects its active biomechanical processes. For instance, any organ-scale motion deforms the tissue, which in turn deforms the interstitial cells (ICs).
+								</p>
+								<p>
+   									In order to study this communication, a simple one-way coupling is utilized to relate different scale simulations by passing data from the largest scale to the smallest one. First, the organ-level simulation is performed. The results of element deformations at the organ-level simulation are applied, as boundary conditions, to a representative volume element (RVE) of tissue. Then, deformations from the tissue-level simulation are passed similarly to the cell-level simulation and the cell aspect ratio will be extracted. The aortic valve leaflets undergo large displacements through the blood pressure and due to anisotropic hyperelastic material constituents. Accordingly, a general code has been developed in C++, Matlab and Java to predict the highly nonlinear and transversely isotropic material behaviors based on the total lagrangian procedure of large deformation theory within a multilevel finite element method.
+   								</p>
+   								<p>
+   									While the models represent a simplified version of the native aortic valve, a good agreement with the experimental data can be observed. Therefore, the proposed multiscale finite element approach can be used in the study of the mechanical behavior of heart valves. Such a procedure may also be regarded as a predictive multiscale modeling in computational biomechanics. The developed code can also be employed not only for analysis of native biomechanical systems but also in the design of tissue engineered constructs, such as tissue-engineered heart valves.
+								</p>
+
+								<img src='img/anim1.gif' alt='' >
+								<hr>
+								<img src='img/anim2.gif' alt='' >	
+								<hr>
+								<img src='img/anim3.gif' alt='' >
+							</div>
+							
+							<div class='col-md-6' style='text-align: justify;'>	
+								<h4>MultiBio: A Multiscale Code for Biomechanical Simulations </h4>
+								
+								<p>
+									MultiBio is a general code for Implementation of multiscale analysis techniques in modelling of biomechanical systems. The code has been developed by Shahrokh Shahi, a Master of Science student in structural engineering.
+								</p>
+ 								<p>
+
+									MultiBio is based on an analytical kernel majority written in C++ which serves as a computational back-end. There are many complications one may encounter in biomechanical simulations. For instance, different types of biological soft tissues are composed of a dense network of primarily collagen and various elastin fibers embedded in a matrix of ground substance containing proteoglycans. On account of such a complexity in the structure of these biological materials, some noticeable complexity can be observed in their mechanical behaviors, such as nonlinear stress-strain relationships, anisotropy, viscoelasticity, poroelasticity, etc. On top of that, as structural materials, the fibered soft tissues usually undergo large deformations even under normal physiological load conditions. All of such characteristics should be considered in any development of computational code for biomechanical simulations. For such reasons, both linear and nonlinear finite element methods have been implemented in the analytical kernel. Furthermore, many hyperelastic constitutive material models are built in the package which can be utilized by users, conveniently.
+
+ 								</p>
+ 								<p>
+									To be more user-friendly, the front-end part of the package is a graphical user interface (GUI) developed in MATLAB to enable users to handle the proper simulation through computational back-end. Finally, a post-processor has been written in Java to present the outputs in an appropriate manner.
+								</p>
+ 								<p>
+									All of the aforementioned parts work as a versatile tool for utilizing multiscale approaches in simulation of biomechanical systems. Although MultiBio is composed of over 30000 lines code in different programming language, it is designed to be easy to understand, modify, and, extend with new applications.
+								</p>
+ 								<p>
+									The program can effectively be linked to some other computational software programs. The input files (*.inp) created in Abaqus CAE can completely be read through a module in MultiBio inputting panel. Moreover, the results of Abaqus analysis can be inputted and processed as an initial data for simulation of a model in another scale, by dint of MultiBio. It could also be linked to COMSOL Multiphysics for some multiphysics simulations in upper-levels such as organ scale. Recently, a new module is developed which provides a simple way to link MultiBio to LAMMPS for molecular dynamics (MD) simulations of microstructure in lower-levels. The following diagram clearly illustrates the various parts of MultiBio, schematically.
+								</p>
+									
+ 								<img src='img/diagram1.png' class="center" alt='' style="undefined;table-layout: fixed; width: 70%; display: block; margin-left: auto; margin-right: auto;" >
+ 								<p>
+									It is hopefully anticipated that the code could play a beneficial role in understanding the theoretical and practical implementation of multiscale approaches in biomechanical simulations. The significant modules of the GUI and their functions are briefly described in the following figures.
+								</p>
+								<img src='img/diagram3.png' alt='' >
+
+								<p>
+ 									The post-processor consists of some principal modules which are briefly demonstrated in the following diagram.
+ 								</p>
+ 								<img src='img/diagram4.png' alt='' >
+
+ 								<p>
+									For instance, the animations on the left exhibit a human aortic heart valve under physiological blood pressure. Such a result is obtained through organ-scale simulation by taking into account large deformations and nonlinear anisotropic hyperelastic material models. The results will automatically be applied to a representative volume element (RVE) of tissue, subsequently.
+								</p>
+							</div>	
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			
+			
+			<div class='footer bg-lightgray section-block' >
+				<div class='container' >
+					<div class='row' >
+						
+						<div class='col-md-6 text-left' >
+							<h4>Shahrokh Shahi</h4>
+						</div>
+						
+						<div class='col-md-6 text-right' >
+							<ul class='footer-social' >
+
+								<li>
+									<a href="https://www.linkedin.com/in/shahrokhx/" target="_blank"> 
+						              <i class="icon ion-social-linkedin"></i>
+						            </a>
+								</li>
+
+					        	<li>
+									<a href="https://github.gatech.edu/sshahi3" target="_blank">
+						              	<i class="icon ion-social-github"></i>
+						            </a>
+					        	</li>
+					        	
+								<li>
+									<a href="http://instagram.com/shahi.shahrokh" target="_blank">
+						              	<i class="fab fa-instagram"></i>
+						            </a>
+						        </li>
+						        
+					        	<li>
+									<a href="https://twitter.com/shahi_shahrokh" target="_blank">
+						              	<i class="icon ion-social-twitter"></i>
+						            </a>
+					        	</li>
+    
+								<li>
+									<a href="http://facebook.com/shahi.shahrokh" target="_blank">
+						              	<i class="ion-social-facebook"></i>
+						            </a>
+					        	</li>
+
+					        	<li>
+									<a href="http://t.me/shahrokhx" target="_blank">
+						              	<i class="fab fa-telegram"></i>
+						            </a>
+					        	</li>
+
+					        	<li>
+									<a href="skype:shahi.shahrokh.x?call">
+						              	<i class="fab fa-skype"></i>
+						            </a>
+					        	</li>
+
+							</ul>
+						</div>
+						
+					</div>	
+				</div>
+			</div>	
+		</div>
+		
+		<script src='../../js/jquery.min.js' ></script>
+		<script src='../../js/jquery.stellar.min.js' ></script>
+		<script src='../../js/modernizr.js' ></script>
+		<script src='../../js/owl.carousel.min.js' ></script>
+		<script src='../../js/jquery.shuffle.min.js' ></script>
+		<script src='../../js/jquery.magnific-popup.min.js' ></script>
+		<script src='../../js/validator.min.js' ></script>
+		<script src='../../js/smoothscroll.js' ></script>
+		<script src='../../js/script.js' ></script>
+		
+	</body>
+	
+</html>

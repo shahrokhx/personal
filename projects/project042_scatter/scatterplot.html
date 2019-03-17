@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- EXTERNAL FILES -->
+    <link rel="stylesheet" href="scatterplot.css">
+    <script type ="text/javascript" src="../../js/d3.v3.min.js"></script>
+    <!-- TITLE -->
+    <title>PORTFOLIO</title>
+</head>
+
+<!-- BODY -->
+<body>
+    <h1>Wine Quality Dataset: </h1>
+    <div id="dataset" style="font-size: 14pt">
+        <p>
+        <b>
+        Quality of red wine based on its chemical composition is studied through various physicochemical tests and the data is recorded in the <a href='wine_quality.csv' target="_blank"> wine_quality dataset</a>.
+        <br>Attributes in the dataset:</b></p>
+        <ol start="1">
+            <li>Feature 1: Residual Sugar (g/cm3) </li>
+            <li>Feature 2: Chlorides (g/cm3)</li>
+            <li>Feature 3: Free Sulfur dioxide (g/cm3)</li>
+            <li>Feature 4: Total Sulfur dioxide (g/cm3) </li>
+            <li>Feature 5: Density (g/cm3) </li>
+            <li>Feature 6: pH </li>
+            <li>Feature 7: Sulphates (g/cm3) </li>
+            <li>Feature 8: Alcohol (% by volume) </li>
+            <li>Quality: Score between 0 to 10 (Score >= 6 is considered to be of “Good” quality wine and score < 6 is considered to be of “Bad” quality wine) </li>
+        </ol>
+
+    </div>
+
+    <h1>Section A</h1>
+    <div id="fig1"></div>
+    <div class="newpage"></div>
+    
+    <div id="fig2"></div>
+    <div class="newpage"></div>
+
+    <h1>Section B</h1>
+    <div id="fig3"></div>
+    <div class="newpage"></div>
+
+    <h1>Section C</h1>
+    <div id="fig4"></div>
+    <div class="newpage"></div>
+
+    <div id="fig5"></div>
+    <div class="newpage"></div>
+
+    <!-- <h2>D3 Test</h2> -->
+    <script type ="text/javascript" src="scatterplot.js"></script>
+
+</body>
+
+</html>
