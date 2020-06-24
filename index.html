@@ -92,9 +92,15 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
+          
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#blog">* Blog *</a>
+          </li> 
+
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>          
+           
         </ul>
       </div>
     </nav>
@@ -121,14 +127,14 @@
           </p>
 
           <p class="lead mb-5" align="justify">
-          Now, after spending a period of time in Georgia Tech, I should confess that I have badly missed my adventures in pure computer science topics that I have had at Imperial College London, but I am also enjoying my current research area and very excited about it. As a PhD student, my research interests mainly include, but not limited to Data Science and Machine Learning, (Big Data, Pattern Recognition, Deep Learning, Data Visual and analytics, etc.) and incorporating these topics in real life engineering applications, such as interval and finite element analysis. Currently, I am working on Interval Neural Networks and their applications in computer science and engineering fields.
+          Now, after spending a while in Georgia Tech, I should confess that I have badly missed my adventures in pure computer science topics that I have had at Imperial College London, but I am also enjoying my current research area and very excited about it. As a PhD student, my research interests mainly include, but not limited to Data Science and Machine Learning, (Big Data, Pattern Recognition, Deep Learning, Data Visual and analytics, etc.) and incorporating these topics in real life engineering applications, such as interval and finite element analysis. Currently, I am working on Interval Neural Networks and their applications in computer science and engineering fields.
           </p>
 
           <p class="lead mb-5" align="justify">
           Apart from my research, I am also working as a software developer and enjoying freelance consulting jobs.
           </p>
 
-
+          
           <div class="social-icons">
             
             <a href="https://www.linkedin.com/in/shahrokhx/" target="_blank" data-toggle="tooltip" title="LinkedIn"> 
@@ -137,6 +143,10 @@
 
             <a href="https://github.com/shahrokhx" target="_blank" data-toggle="tooltip" title="GitHub">
               <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://medium.com/@shahrokhx" target="_blank" data-toggle="tooltip" title="Medium">
+              <i class="fab fa-medium-m"></i>
             </a>
             
             <a href="http://instagram.com/shahi.shahrokh" target="_blank" data-toggle="tooltip" title="Instagram">
@@ -1354,16 +1364,58 @@
                 </td>
               </tr>
             </table>
-
           </ul> 
-
-
-
-
-          
-
         </div>
       </section>
+
+
+      <hr class="m-0">
+
+
+      <!-- ------------------------------------- BLOG ------------------------------------- -->
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
+        <!-- ***************************************************************************************************** -->
+        <h2 class="mb-5">Blog</h2>
+        <p align="justify">
+          I'm usually enjoying writing about everything in my life and mostly about my research and technical interests which I publish them on Medium. Additionally, I usually post my thoughts and daily pictures on Twitter and Instagram.
+        </p>
+        <!--                             ------------------------ MEDIUM ------------------------ -->
+        <h3 class="heading mb-3">Medium <a href="https://medium.com/@shahrokhx" target="_blank" class="crt-logo crt-tag"><i class="fab fa-medium-m"></i></a></h3> 
+        <div id="medium-widget" style="border: thin solid black;margin:0 auto;padding:29px;width: 70%;"></div>
+         
+        
+
+        
+        <div class="vspace"></div> <!-- ------------------------ TWITTER ------------------------ -->
+        <!--
+        <h3 class="heading mb-3">Twitter  <a href="https://twitter.com/shahi_shahrokh?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="small" data-show-count="false"> Follow @shahi_shahrokh</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </h3>
+        -->
+        <h3 class="heading mb-3">Twitter <a href="https://twitter.com/shahi_shahrokh" target="_blank" class="crt-logo crt-tag"><i class="fab fa-twitter"></i></a></h3> 
+
+        <div id="tweets" style="border: thin solid black;margin:0 auto;width: 70%;">
+          <a class="twitter-timeline" data-width="550" data-height="600" href="https://twitter.com/shahi_shahrokh?ref_src=twsrc%5Etfw">My Tweets on Twitter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
+
+
+        <div class="vspace"></div> <!-- ------------------------ INSTAGRAM ------------------------ -->
+        <h3 class="heading mb-3">Instagram <a href="http://instagram.com/shahi.shahrokh" target="_blank" class="crt-logo crt-tag"><i class="fab fa-instagram"></i></a></h3> 
+        <!-- Place <div> tag where you want the feed to appear -->
+        <div id="curator-feed-default-feed-layout" style="border: thin solid black;margin:0 auto;padding:29px;width: 70%;"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag" style="color:white">Powered by Curator.io</a></div>
+        <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+        <script type="text/javascript">
+        /* curator-feed-default-feed-layout */
+        (function(){
+        var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+        i.src = "https://cdn.curator.io/published/9e961386-4717-4a16-bcb3-39de3acdd897.js";
+        e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+        })();
+        </script>
+
+
+        <!-- ***************************************************************************************************** -->
+      </section>
+
 
       <hr class="m-0">
 
@@ -2226,8 +2278,13 @@
     <script src='js/smoothscroll.js' ></script>
     <script src='js/script.js' ></script>
 
+
     <!-- Add for badge(s) -->
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <!-- Medium Feed -->
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@shahrokhx","postsPerLine":1,"limit":4,"picture":"small","fields":["description","author","claps","likes","publishAt"],"ratio":"square"}})</script>
 
   </body>
 
