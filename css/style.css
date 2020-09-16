@@ -274,7 +274,12 @@ body.section-show .section.active{
 .section-block{
 	overflow:hidden;
 }
-
+.inner-center{
+	width: 100px;
+ 	height: 100px;
+	vertical-align: middle;
+	margin: 10px auto;
+}
 /*=======================================================================
 	Preloader
 =======================================================================*/
